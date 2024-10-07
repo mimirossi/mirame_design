@@ -1,0 +1,374 @@
+@font-face {
+  font-family: "Futura";
+  src: url(/assets/futura_sito/futura_medium_bt.ttf);
+}
+@font-face {
+  font-family: "Futura Light";
+  src: url(/assets/futura_sito/Futura\ Book\ font.ttf);
+}
+@font-face {
+  font-family: "Futura Bold";
+  src: url(/assets/futura_sito/Futura\ Heavy\ font.ttf);
+}
+:root {
+  --colore-principale: #ff156c;
+  --colore-secondario: #ffffff;
+  --grey: #d9d9d9;
+  --black: #000000;
+  --text-body: 1.5rem;
+  --text-menu: 1rem;
+  --text-subtitle: 2.25rem;
+  --text-body-pc: 2rem;
+  --text-menu-pc: 1rem;
+  --text-subtitle-pc: 2.7rem;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Futura, Helvetica;
+  /* background-color: var(--black); */
+  background-color: var(--black);
+  color: var(--colore-secondario);
+}
+header {
+  background-color: var(--black);
+  position: fixed;
+  display: flex;
+  padding: 40px 21px;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  align-items: baseline;
+  font-size: var(--text-menu);
+  align-items: center;
+  z-index: 2;
+}
+header p,
+footer p {
+  font-family: Futura-Bold;
+}
+nav {
+  display: none;
+  background-color: var(--black);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-family: Futura;
+}
+a:hover {
+  color: var(--colore-principale);
+}
+p {
+  font-family: "Futura Light", Helvetica;
+}
+.fa-brands {
+  font-size: 30px;
+}
+.margin {
+  margin-right: 30px;
+}
+.footer-icon {
+  color: var(--black);
+  text-align: center;
+}
+#hamburger {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+#hamburger div {
+  width: 30px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: white;
+  position: relative;
+  transition: transform opacity top 0.5s;
+  top: 0;
+  opacity: 1;
+}
+#hamburger.open div:nth-child(1) {
+  transform: rotate(deg70);
+  top: 7px;
+}
+#hamburger.open div:nth-child(2) {
+  opacity: 0;
+}
+#hamburger.open div:nth-child(3) {
+  transform: rotate(-70deg);
+  top: -7px;
+}
+.show {
+  display: flex;
+}
+h1 {
+  font-size: var(--text-subtitle);
+}
+main {
+  margin: 150px 21px;
+  margin-bottom: 100px;
+}
+.gruppo1 {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.gruppo-foto {
+  width: 100%;
+  text-decoration: none;
+}
+.foto_uno {
+  background-image: url(/assets/images_sito/Social-FIRM_Miriam_Rossi/Per_portfolio/cover_sito_mobile.jpg);
+}
+.foto_due {
+  background-image: url(/assets/images_sito/Nailing_queen/cover_video_pack_volante\ .jpg);
+}
+.foto_tre {
+  background-image: url(/assets/images_sito/Tunnel/cover_mobile_logo1.jpg);
+}
+.foto_quattro {
+  background-image: url(/assets/images_sito/non_so_cosa/Post\ eventbrite_Tavola\ disegno\ 1.jpg);
+}
+.foto_cinque {
+  background-image: url(/assets/images_sito/ayra/Brand_Kit-2/cover_mobile.png);
+}
+.foto_sei {
+  background-image: url(/assets/images_sito/Tesi_naba/cover_mobile_b.jpg);
+}
+.foto_sette {
+  background-image: url(/assets/images_sito/light_design/cover_mobile.jpg);
+}
+.foto_otto {
+  background-image: url(/assets/images_sito/viki_font/cover_mobile.jpg);
+}
+.foto_nove {
+  background-image: url(/assets/images_sito/CO-DESIGN/cover_co-design_pc.jpg);
+}
+.style {
+  height: 250px;
+  background-size: cover;
+  border: 1px solid var(--colore-secondario);
+  transition: 0.5s ease-in-out;
+  background-position: center center;
+}
+/* @media (pointer: coarse) {
+  .style {
+    filter: grayscale(1) brightness(0.4);
+  }
+} */
+.foto-content {
+  width: 80%;
+  position: relative;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  color: white;
+}
+.gruppo-foto:hover .foto-content,
+.gruppo-foto:active .foto-content {
+  opacity: 1;
+  pointer-events: none;
+}
+.foto_due:hover {
+  background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
+    url(/assets/images_sito/Nailing_queen/cover_video_pack_volante\ .jpg);
+  filter: grayscale();
+}
+.foto_uno:hover {
+  background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
+    url(/assets/images_sito/Social-FIRM_Miriam_Rossi/Per_portfolio/cover_sito_mobile.jpg);
+  filter: grayscale();
+}
+.foto_tre:hover {
+  background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
+    url(/assets/images_sito/Tunnel/cover_mobile_logo1.jpg);
+  filter: grayscale();
+}
+.foto_quattro:hover {
+  background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
+    url(/assets/images_sito/non_so_cosa/Post\ eventbrite_Tavola\ disegno\ 1.jpg);
+  filter: grayscale();
+}
+.foto_cinque:hover {
+  background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
+    url(/assets/images_sito/ayra/Brand_Kit-2/cover_mobile.png);
+  filter: grayscale();
+}
+.foto_sei:hover {
+  background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
+    url(/assets/images_sito/Tesi_naba/cover_mobile_b.jpg);
+  filter: grayscale();
+}
+.foto_sette:hover {
+  background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
+    url(/assets/images_sito/light_design/cover_mobile.jpg);
+  filter: grayscale();
+}
+.foto_otto:hover {
+  background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
+    url(/assets/images_sito/viki_font/cover_mobile.jpg);
+  filter: grayscale();
+}
+.foto_nove:hover {
+  background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
+    url(/assets/images_sito/CO-DESIGN/cover_co-design_pc.jpg);
+  filter: grayscale();
+}
+.foto-grande {
+  grid-column: 1/3;
+}
+.footer_services {
+  margin: 30px;
+  gap: 10px;
+  text-align: end;
+}
+.footer_services div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 157px;
+  width: 80%;
+  height: 42px;
+  border: 1px solid var(--grey);
+  border-radius: 21px;
+  font-size: var(--text-menu);
+  text-align: center;
+}
+footer {
+  background-color: var(--colore-secondario);
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  padding-top: 65px;
+}
+footer p {
+  text-align: center;
+  color: var(--black);
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+@media (min-width: 800px) {
+  header {
+    font-size: var(--text-menu-pc);
+  }
+  header p {
+    order: -1;
+  }
+  nav {
+    flex-direction: row;
+    justify-content: start;
+    display: flex;
+    height: auto;
+    width: auto;
+    position: static;
+    font-size: var(--text-menu-pc);
+  }
+  #hamburger {
+    display: none;
+  }
+  main h1 {
+    margin: 0 10%;
+    margin-top: 40px;
+  }
+  h1 {
+    font-size: var(--text-subtitle-pc);
+  }
+  .stile {
+    height: 280px;
+  }
+  .foto-piccola {
+    max-width: 580px;
+  }
+  .foto-grande {
+    max-width: 1213px;
+  }
+  .foto_uno {
+    background-image: url(/assets/images_sito/Social-FIRM_Miriam_Rossi/Per_portfolio/cover_sito_mobile.jpg);
+  }
+  .foto_due {
+    background-image: url(/assets/images_sito/Nailing_queen/Banner\ Seletti.gif);
+  }
+  .foto_tre {
+    background-image: url(/assets/images_sito/Tunnel/t12_logo_pc.jpg);
+  }
+  .foto_quattro {
+    background-image: url(/assets/images_sito/non_so_cosa/non_so_cover_pc.jpg);
+  }
+  .foto_cinque {
+    background-image: url(/assets/images_sito/ayra/Brand_Kit-2/cover_pc.jpg);
+  }
+  .foto_sette {
+    background-image: url(/assets/images_sito/light_design/cover_pc.jpg);
+  }
+  .foto_due:hover {
+    background-image: linear-gradient(
+        rgba(16, 0, 0, 0.866),
+        rgba(0, 0, 0, 0.795)
+      ),
+      url(/assets/images_sito/Nailing_queen/Banner\ Seletti.gif);
+    filter: grayscale();
+  }
+  .foto_tre:hover {
+    background-image: linear-gradient(
+        rgba(16, 0, 0, 0.866),
+        rgba(0, 0, 0, 0.795)
+      ),
+      url(/assets/images_sito/Tunnel/t12_logo_pc.jpg);
+    filter: grayscale();
+  }
+  .foto_quattro:hover {
+    background-image: linear-gradient(
+        rgba(16, 0, 0, 0.866),
+        rgba(0, 0, 0, 0.795)
+      ),
+      url(/assets/images_sito/non_so_cosa/non_so_cover_pc.jpg);
+    filter: grayscale();
+  }
+  .foto_cinque:hover {
+    background-image: linear-gradient(
+        rgba(16, 0, 0, 0.866),
+        rgba(0, 0, 0, 0.795)
+      ),
+      url(/assets/images_sito/ayra/Brand_Kit-2/cover_pc.jpg);
+    filter: grayscale();
+  }
+  .foto_sette:hover {
+    background-image: linear-gradient(
+        rgba(16, 0, 0, 0.866),
+        rgba(0, 0, 0, 0.795)
+      ),
+      url(/assets/images_sito/light_design/cover_pc.jpg);
+    filter: grayscale();
+  }
+  .gruppo1 {
+    max-width: 1213px;
+    justify-content: center;
+  }
+  .footer-section {
+    font-size: var(--text-menu-pc);
+  }
+}
