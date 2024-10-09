@@ -114,9 +114,9 @@ p {
   display: flex;
 }
 .corpo {
-  min-width: 225px;
+  min-width: 160px;
+  max-width: 300px;
   width: 30%;
-  max-width: 330px;
 }
 h1 {
   font-size: var(--text-subtitle);
