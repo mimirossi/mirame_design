@@ -15,7 +15,7 @@
   --colore-secondario: #ffffff;
   --grey: #d9d9d9;
   --black: #000000;
-  --text-body: 1.5rem;
+  --text-body: 0.9rem;
   --text-menu: 1rem;
   --text-subtitle: 2.25rem;
   --text-body-pc: 2rem;
@@ -71,6 +71,7 @@ a:hover {
 }
 p {
   font-family: "Futura Light", Helvetica;
+  font-size: var(--text-body);
 }
 .fa-brands {
   font-size: 30px;
