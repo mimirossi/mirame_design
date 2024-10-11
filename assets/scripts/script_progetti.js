@@ -14,7 +14,7 @@ links.forEach((link) => {
     const tapLength = currentTime - lastTapTime;
 
     // Se il tempo tra due tocchi è inferiore a 300 ms, allora è un doppio tap
-    if (tapLength < 300 && tapLength > 0) {
+    if (tapLength < 200 && tapLength > 0) {
       // Consenti la navigazione
       window.location.href = link.href;
     } else {
