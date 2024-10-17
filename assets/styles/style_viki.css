@@ -73,15 +73,31 @@ p {
   font-family: "Futura Light", Helvetica;
   font-size: var(--text-body);
 }
+.icons {
+  display: flex;
+  gap: 5px;
+  margin-right: 40px;
+}
+.icon {
+  width: 29px;
+  margin: 0;
+  padding: 0;
+}
 .fa-brands {
   font-size: 30px;
 }
-.margin {
+/* .margin {
   margin-right: 30px;
-}
+} */
 .footer-icon {
   color: var(--black);
   text-align: center;
+}
+.icons-footer {
+  display: flex;
+  text-align: baseline;
+  justify-content: center;
+  gap: 5px;
 }
 #hamburger {
   background: none;
