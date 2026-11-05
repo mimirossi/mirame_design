@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Futura";
-  src: url(/assets/futura_sito/futura_medium_bt.ttf);
+  src: url(../futura_sito/futura_medium_bt.ttf);
 }
 @font-face {
   font-family: "Futura Light";
-  src: url(/assets/futura_sito/Futura\ Book\ font.ttf);
+  src: url(../futura_sito/Futura\ Book\ font.ttf);
 }
 @font-face {
   font-family: "Futura Bold";
-  src: url(/assets/futura_sito/Futura\ Heavy\ font.ttf);
+  src: url(../futura_sito/Futura\ Heavy\ font.ttf);
 }
 :root {
   --colore-principale: #ff156c;
@@ -147,31 +147,31 @@ main {
   text-decoration: none;
 }
 .foto_uno {
-  background-image: url(/assets/images_sito/Social-FIRM_Miriam_Rossi/Per_portfolio/cover_sito_mobile.jpg);
+  background-image: url(../images_sito/Social-FIRM_Miriam_Rossi/Per_portfolio/cover_sito_mobile.jpg);
 }
 .foto_due {
-  background-image: url(/assets/images_sito/Nailing_queen/cover_video_pack_volante\ .jpg);
+  background-image: url(../images_sito/Nailing_queen/cover_video_pack_volante\ .jpg);
 }
 .foto_tre {
-  background-image: url(/assets/images_sito/Tunnel/cover_mobile_logo1.jpg);
+  background-image: url(../images_sito/Tunnel/cover_mobile_logo1.jpg);
 }
 .foto_quattro {
-  background-image: url(/assets/images_sito/non_so_cosa/Post\ eventbrite_Tavola\ disegno\ 1.jpg);
+  background-image: url(../images_sito/non_so_cosa/Post\ eventbrite_Tavola\ disegno\ 1.jpg);
 }
 .foto_cinque {
-  background-image: url(/assets/images_sito/ayra/Brand_Kit-2/cover_mobile.png);
+  background-image: url(../images_sito/ayra/Brand_Kit-2/cover_mobile.png);
 }
 .foto_sei {
-  background-image: url(/assets/images_sito/Tesi_naba/cover_mobile_b.jpg);
+  background-image: url(../images_sito/Tesi_naba/cover_mobile_b.jpg);
 }
 .foto_sette {
-  background-image: url(/assets/images_sito/light_design/cover_mobile.jpg);
+  background-image: url(../images_sito/light_design/cover_mobile.jpg);
 }
 .foto_otto {
-  background-image: url(/assets/images_sito/viki_font/cover_mobile.jpg);
+  background-image: url(../images_sito/viki_font/cover_mobile.jpg);
 }
 .foto_nove {
-  background-image: url(/assets/images_sito/CO-DESIGN/cover_co-design_pc.jpg);
+  background-image: url(../images_sito/CO-DESIGN/cover_co-design_pc.jpg);
 }
 .style {
   height: 250px;
@@ -202,47 +202,47 @@ main {
 }
 .foto_due:hover {
   background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
-    url(/assets/images_sito/Nailing_queen/cover_video_pack_volante\ .jpg);
+    url(../images_sito/Nailing_queen/cover_video_pack_volante\ .jpg);
   filter: grayscale();
 }
 .foto_uno:hover {
   background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
-    url(/assets/images_sito/Social-FIRM_Miriam_Rossi/Per_portfolio/cover_sito_mobile.jpg);
+    url(../images_sito/Social-FIRM_Miriam_Rossi/Per_portfolio/cover_sito_mobile.jpg);
   filter: grayscale();
 }
 .foto_tre:hover {
   background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
-    url(/assets/images_sito/Tunnel/cover_mobile_logo1.jpg);
+    url(../images_sito/Tunnel/cover_mobile_logo1.jpg);
   filter: grayscale();
 }
 .foto_quattro:hover {
   background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
-    url(/assets/images_sito/non_so_cosa/Post\ eventbrite_Tavola\ disegno\ 1.jpg);
+    url(../images_sito/non_so_cosa/Post\ eventbrite_Tavola\ disegno\ 1.jpg);
   filter: grayscale();
 }
 .foto_cinque:hover {
   background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
-    url(/assets/images_sito/ayra/Brand_Kit-2/cover_mobile.png);
+    url(../images_sito/ayra/Brand_Kit-2/cover_mobile.png);
   filter: grayscale();
 }
 .foto_sei:hover {
   background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
-    url(/assets/images_sito/Tesi_naba/cover_mobile_b.jpg);
+    url(../images_sito/Tesi_naba/cover_mobile_b.jpg);
   filter: grayscale();
 }
 .foto_sette:hover {
   background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
-    url(/assets/images_sito/light_design/cover_mobile.jpg);
+    url(../images_sito/light_design/cover_mobile.jpg);
   filter: grayscale();
 }
 .foto_otto:hover {
   background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
-    url(/assets/images_sito/viki_font/cover_mobile.jpg);
+    url(../images_sito/viki_font/cover_mobile.jpg);
   filter: grayscale();
 }
 .foto_nove:hover {
   background-image: linear-gradient(rgba(16, 0, 0, 0.866), rgba(0, 0, 0, 0.795)),
-    url(/assets/images_sito/CO-DESIGN/cover_co-design_pc.jpg);
+    url(../images_sito/CO-DESIGN/cover_co-design_pc.jpg);
   filter: grayscale();
 }
 .foto-grande {
@@ -385,29 +385,29 @@ footer p {
     max-width: 1213px;
   }
   .foto_uno {
-    background-image: url(/assets/images_sito/Social-FIRM_Miriam_Rossi/Per_portfolio/cover_sito_mobile.jpg);
+    background-image: url(../images_sito/Social-FIRM_Miriam_Rossi/Per_portfolio/cover_sito_mobile.jpg);
   }
   .foto_due {
-    background-image: url(/assets/images_sito/Nailing_queen/Banner\ Seletti.gif);
+    background-image: url(../images_sito/Nailing_queen/Banner\ Seletti.gif);
   }
   .foto_tre {
-    background-image: url(/assets/images_sito/Tunnel/t12_logo_pc.jpg);
+    background-image: url(../images_sito/Tunnel/t12_logo_pc.jpg);
   }
   .foto_quattro {
-    background-image: url(/assets/images_sito/non_so_cosa/non_so_cover_pc.jpg);
+    background-image: url(../images_sito/non_so_cosa/non_so_cover_pc.jpg);
   }
   .foto_cinque {
-    background-image: url(/assets/images_sito/ayra/Brand_Kit-2/cover_pc.jpg);
+    background-image: url(../images_sito/ayra/Brand_Kit-2/cover_pc.jpg);
   }
   .foto_sette {
-    background-image: url(/assets/images_sito/light_design/cover_pc.jpg);
+    background-image: url(../images_sito/light_design/cover_pc.jpg);
   }
   .foto_due:hover {
     background-image: linear-gradient(
         rgba(16, 0, 0, 0.866),
         rgba(0, 0, 0, 0.795)
       ),
-      url(/assets/images_sito/Nailing_queen/Banner\ Seletti.gif);
+      url(../images_sito/Nailing_queen/Banner\ Seletti.gif);
     filter: grayscale();
   }
   .foto_tre:hover {
@@ -415,7 +415,7 @@ footer p {
         rgba(16, 0, 0, 0.866),
         rgba(0, 0, 0, 0.795)
       ),
-      url(/assets/images_sito/Tunnel/t12_logo_pc.jpg);
+      url(../images_sito/Tunnel/t12_logo_pc.jpg);
     filter: grayscale();
   }
   .foto_quattro:hover {
@@ -423,7 +423,7 @@ footer p {
         rgba(16, 0, 0, 0.866),
         rgba(0, 0, 0, 0.795)
       ),
-      url(/assets/images_sito/non_so_cosa/non_so_cover_pc.jpg);
+      url(../images_sito/non_so_cosa/non_so_cover_pc.jpg);
     filter: grayscale();
   }
   .foto_cinque:hover {
@@ -431,7 +431,7 @@ footer p {
         rgba(16, 0, 0, 0.866),
         rgba(0, 0, 0, 0.795)
       ),
-      url(/assets/images_sito/ayra/Brand_Kit-2/cover_pc.jpg);
+      url(../images_sito/ayra/Brand_Kit-2/cover_pc.jpg);
     filter: grayscale();
   }
   .foto_sette:hover {
@@ -439,7 +439,7 @@ footer p {
         rgba(16, 0, 0, 0.866),
         rgba(0, 0, 0, 0.795)
       ),
-      url(/assets/images_sito/light_design/cover_pc.jpg);
+      url(../images_sito/light_design/cover_pc.jpg);
     filter: grayscale();
   }
   .gruppo1 {

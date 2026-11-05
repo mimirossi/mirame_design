@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Futura";
-  src: url(/assets/futura_sito/futura_medium_bt.ttf);
+  src: url(../futura_sito/futura_medium_bt.ttf);
 }
 @font-face {
   font-family: "Futura Light";
-  src: url(/assets/futura_sito/Futura\ Book\ font.ttf);
+  src: url(../futura_sito/Futura\ Book\ font.ttf);
 }
 @font-face {
   font-family: "Futura Bold";
-  src: url(/assets/futura_sito/Futura\ Heavy\ font.ttf);
+  src: url(../futura_sito/Futura\ Heavy\ font.ttf);
 }
 :root {
   --colore-principale: #ff156c;
